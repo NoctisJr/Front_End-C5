@@ -1,0 +1,287 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 60px 3px 100px;
+    font-stretch: ultra-condensed;
+}
+.header select{
+    display: inline;
+    background-color: black;
+    color:white;
+    border-color: black;
+    font-stretch: ultra-condensed;
+}
+.navbar{
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px 15px 40px;
+}
+.navbar nav ul {
+    display: flex;
+    gap:20px;
+    color: white;  
+}
+.navbar nav ul li a {
+    display: flex;
+    color: white;    
+}
+.navbar nav ul li img {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    filter: rgb(255, 255, 255); 
+}
+.navbar img{
+    width: 200px;
+}
+.hero {
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-image: url('img/Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+}
+.hero section {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+    align-items: center;
+}
+.hero section h3 {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 200%;
+    font-weight: lighter;
+}
+.hero section p {
+    align-items: center; 
+}
+.hero section button {
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #F0A83E;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.hero section button a {
+    color: white;
+}
+.product  {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.product img {
+    padding: 40px 0px 10px 0px;
+}
+.product h1 {
+    padding: 10px 0px 30px 0px;
+    color: #3C2313;
+    font-weight: 900;
+}
+.product ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+}
+.product ul a {  
+    color: #3C2313;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+   
+}
+.card {
+    text-align: center;
+    background-color: #fbfaed8d;
+    width: 240px;
+}
+.card-titulo {
+    color: #3C2313;
+    font-size: small;
+    font-weight: bold;
+}
+.card-precio {
+    color:#F0A83E; 
+    font-size: small;
+    font-weight: bold;
+}
+.footer {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+    align-items:flex-start;
+    position: relative;
+}
+
+.footerItem {
+    display:inline-flex;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    
+    
+}
+.footerItem img {
+    width: 6vh;
+}
+
+footer h3 {
+    width: 250px;
+    align-items: center;
+    font-weight: bold;
+}
+footer p {
+    color: #8A8787;
+    font-weight: bold;
+    font-size: x-small;
+
+}
+
+.rights p {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content:space-around;
+    font-stretch: ultra-condensed;   
+}
+.logo img{
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    right: 10%;
+    width: 200px;
+ 
+    position: absolute;
+    
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    color: #3C2313;
+    font-weight: 900;
+    
+
+}
+
+.contacto input  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #3C2313;
+    color: white;
+    border: none;
+    width: 300px;
+    padding: 4%;
+    border-radius: 15px;
+    border: 1px solid #3C2313;  
+    
+}
+
+.botones {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+
+.botones  .resetear{
+    border-radius: 50px;
+    background-color: #8A8787;
+    border: none;
+    color: white;
+    font-weight: 100;
+    width: 40%;
+    height: 5vh;
+
+}
+
+.botones  .enviar{
+    border-radius: 50px;
+    background-color: #F0A83E;
+    border: none;
+    color: white;
+    font-weight: 100;
+    width: 40%;
+    height: 5vh;
+
+}
+
+.suscribir {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+    background-color: #F0A83E;
+    height: 5vh;
+    padding: 10px;
+
+}
+
+.suscribir h3 {
+   margin-left: 5%;
+}
+
+.suscribirme {
+    display: flex;
+    margin-right: 10%;
+    display: inline;
+}
+
+.suscribirme input {
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    width: 30vh;
+    height: 4vh;
+    
+}
+
+.suscribirme button {
+    border-radius: 15px;
+    background-color: #3C2313;
+    border: none;
+    color: white;
+    font-size: 0.5em;
+    width: 10vh;
+    height: 3vh;
+    
+}
