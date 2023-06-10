@@ -434,14 +434,13 @@ footer p {
         font-size: 15px;
     }
 
-    .contenedoritem {
-        .logo {
-            top: 2%;
-            right: 25%;
-            position: absolute;
-        }
+    .logo img{
+        right: 20%;
+        top: 3%;
+        width: 200px;
+        position: absolute;
+        
     }
-
     
     .rights {
         background-color: black;
