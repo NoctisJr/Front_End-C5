@@ -434,11 +434,10 @@ footer p {
         font-size: 15px;
     }
 
-    .logo img{
-        right: 20%;
-        top: 3%;
-        width: 200px;
+   .logo img{
         position: absolute;
+        top: 1%;
+        left: 25%;
         
     }
     
