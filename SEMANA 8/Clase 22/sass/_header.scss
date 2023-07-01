@@ -1,0 +1,20 @@
+header {
+    background-color: $Color_fondoHeader;
+    text-align: center;
+    margin-bottom: 128px;
+
+    img {
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        color: $Color_titulos;
+        letter-spacing: .35em;
+        padding: 10px 0;
+        margin: 0;
+        background-color: $Color_fondoTitulos;
+    }
+
+}

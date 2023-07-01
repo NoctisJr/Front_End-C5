@@ -1,0 +1,49 @@
+section {
+
+    .titulo-seccion {
+        font-size: 20px;
+        color: $Color_titulos;
+        letter-spacing: .35em;
+        text-transform: uppercase;
+        padding: 3px 10px;
+        margin-bottom: 20px;
+        background-color: $Color_fondoTitulos;  
+    }
+
+    ul {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+
+    .informacion {
+        list-style-type: none;
+
+        li {
+            display: flex;
+
+            .cursiva {
+                font-style: italic;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+
+}
+
+section:first-child ul {
+    padding-left: 40px;
+}
+
+
+.informacion li:not(:last-child) {
+    margin-bottom: 5px;
+}
