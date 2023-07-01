@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos de la parte top*/
+.header__ul {
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 60px 1px 100px;
+  font-stretch: ultra-condensed;
+}
+.header__ul select {
+  display: inline;
+  background-color: black;
+  color: #ffffff;
+  border-color: black;
+  font-stretch: ultra-condensed;
+}
+
+/* Estilos del header*/
+.navbar {
+  background-color: #F0A83E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px 15px 40px;
+}
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.navbar nav ul li {
+  list-style-image: url(./image/pawprint_white.png);
+  gap: 2px;
+}
+.navbar .menu {
+  display: none;
+}
+
+/* Estilos del Main - Estilos del slide*/
+.slide {
+  height: 409px;
+  background-image: url(./image/hero.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.slide .text {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  gap: 1em;
+  align-items: center;
+  padding: 10px;
+}
+.slide .text h2 {
+  background-color: #ffffff;
+  padding: 0.3em;
+  color: #3C2313;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.slide .text p {
+  color: #3C2313;
+}
+.slide .text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  font-weight: 100;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  background-color: #F0A83E;
+  font-weight: 500;
+  padding: 1em;
+}
+
+/* Estilos en los productos*/
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 95px;
+}
+
+.products-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+.products-nav h1 {
+  color: #3C2313;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.products-nav ul {
+  display: flex;
+  gap: 1em;
+}
+.products-nav ul li, .products-nav ul a {
+  color: #8A8787;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+.cards .card p {
+  color: #3C2313;
+}
+.cards .card span {
+  color: #F0A83E;
+}
+
+/* Estilos del formulario*/
+.form-contact {
+  display: flex;
+  justify-content: center;
+}
+.form-contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.form-contact form h2 {
+  color: #3C2313;
+  font-weight: bold;
+  font-size: 25px;
+}
+.form-contact form input {
+  background-color: #3C2313;
+  color: #ffffff;
+  width: 340px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+}
+.form-contact form input::-moz-placeholder {
+  color: #ffffff;
+}
+.form-contact form input::placeholder {
+  color: #ffffff;
+}
+
+.btns-form, .btns-form .send, .btns-form .reset {
+  display: flex;
+  gap: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  font-weight: 100;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+}
+.btns-form .reset {
+  background-color: #8A8787;
+}
+.btns-form .send {
+  background-color: #F0A83E;
+}
+
+/* Estilos del suscribete*/
+.subscribe {
+  margin-top: 50px;
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 5px;
+}
+.subscribe .subs-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 20px;
+}
+.subscribe .subs-text i {
+  font-size: 50px;
+}
+.subscribe .subs-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe .subs-form ul {
+  display: flex;
+  flex-direction: row;
+}
+.subscribe .subs-form ul li input {
+  height: 40px;
+  border-radius: 15px;
+  width: 270px;
+  border: none;
+  padding: 1em;
+}
+.subscribe .subs-form ul li button {
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: #3C2313;
+  padding: 1em;
+  margin-left: 10px;
+}
+
+/* Estilos del footer*/
+footer .footer-inf {
+  background-color: #3C2313;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+footer .footer-inf i {
+  font-size: 50px;
+}
+footer .footer-inf ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+footer .footer-inf ul li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 15px;
+}
+footer .footer-inf ul li div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+footer .footer-inf ul li div p {
+  font-size: 10px;
+  color: #8A8787;
+}
+footer .bottom {
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+
+/*Estilos de Media Querie*/
+@media (max-width: 420px) {
+  .header__ul {
+    display: none;
+  }
+  .navbar nav {
+    display: none;
+  }
+  .navbar .menu {
+    display: block;
+    font-size: 30px;
+  }
+  .slide .text {
+    background-position: left;
+    justify-content: center;
+  }
+  .slide .text h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  .slide .text p {
+    color: white;
+    text-shadow: black 0.1em 0.3em 0.3em;
+  }
+  .slide .text a {
+    padding: 5%;
+    width: 100px;
+    height: 40px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+  .subscribe .subs-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 2px;
+  }
+  .subscribe .subs-form ul li input {
+    width: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
